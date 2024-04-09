@@ -1,0 +1,404 @@
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu li {
+    margin-top: 40px;
+  }
+  .menu li a {
+    padding: 10px;
+  }
+  .nav-bar .open-menu,
+  .nav-bar .menu .close-menu {
+    display: block;
+  }
+
+  #check:checked ~ .menu {
+    right: 0;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 70px;
+  }
+
+  .hero-section .hero-content {
+    width: 80%;
+    text-align: center;
+  }
+  .hero-section .hero {
+    width: 90%;
+  }
+
+  .hero-section .hero-image img {
+    width: 100%;
+  }
+
+  .hero-section .hero-content-btn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-section .hero-image {
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .chefs-section {
+    flex-direction: column;
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+
+  .chefs-section .chefs-content {
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .chefs-section .chefs-content .content-container {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .chefs-section .chefs-content .content-container .content {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+  .column {
+    width: 100%;
+  }
+
+  .contact-section {
+    width: 100%;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .contact-section .contact-us {
+    width: 90%;
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .contact-section .contact-us .contact {
+    width: 100%;
+  }
+
+  .contact-section .contact-us .contact .content {
+    text-align: start;
+  }
+
+  .contact-section .contact-us .contact-form form .info-form {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .contact-section .contact-us .contact-form form .info-form #name {
+    width: 100%;
+  }
+
+  .footer-section {
+    height: fit-content;
+  }
+  .footer-section .footer-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+  }
+
+  .footer-section .footer-content .footer {
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .footer-section .footer-content .footer p {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .footer-section .footer-content .footer .footer-input form {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-section .footer-content .footer .footer-input form input {
+    width: 95%;
+  }
+
+  .footer-section .footer-content .footer .footer-input form .footer-btn {
+    width: 95%;
+  }
+
+  .footer-section .footer-content .footer .footer-input form button {
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .footer-section .footer-content .footer .footer-links .links {
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .menu {
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu li {
+    margin-top: 40px;
+  }
+  .menu li a {
+    padding: 10px;
+  }
+  .nav-bar .open-menu,
+  .nav-bar .menu .close-menu {
+    display: block;
+  }
+
+  #check:checked ~ .menu {
+    right: 0;
+  }
+
+  .hero-section {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 70px;
+    margin-top: 30px;
+  }
+
+  .hero-section .hero-content {
+    width: 80%;
+    text-align: center;
+  }
+  .hero-section .hero {
+    width: 90%;
+  }
+
+  .hero-section .hero-image img {
+    width: 100%;
+  }
+
+  .hero-section .hero-content-btn {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .hero-section .hero-image {
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .chefs-section {
+    flex-direction: column;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .chefs-section .chefs-content {
+    flex-direction: row;
+    width: 90%;
+    flex-wrap: wrap;
+    height: fit-content;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .chefs-section .chefs-content .content-container {
+    flex-direction: column;
+    width: 48%;
+    height: fit-content;
+  }
+
+  .chefs-section .chefs-content .content-container .content {
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .gallery-container {
+    width: 70%;
+    flex-direction: row;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    flex: 1 1 33.33%;
+  }
+
+  .column3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .gallery-container .column .gallery {
+    width: 100%;
+  }
+
+  .gallery-container .column3 .gallery {
+    width: 33.33%;
+    gap: 50px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: start;
+    flex: 1 1 33.33%;
+  }
+
+  .column3 .gallery img {
+    width: 100%;
+  }
+
+  .gallery-container .column .gallery img {
+    width: 100%;
+  }
+
+  .gallery-section .gallery-container .column .gallery img {
+    width: 100%;
+  }
+
+  .contact-section {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-section .contact-us {
+    width: 90%;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contact-section .contact-us .contact {
+    width: 45%;
+  }
+
+  .contact-section .contact-us .contact .content {
+    text-align: start;
+    font-size: 20px;
+  }
+
+  .contact-section .contact-us .contact-form form .info-form {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .contact-section .contact-us .contact-form form .info-form #name {
+    width: 100%;
+  }
+
+  .footer-section {
+    height: fit-content;
+    padding-bottom: 40px;
+  }
+  .footer-section .footer-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    width: 80%;
+    flex: 1 1 45%;
+  }
+
+  .footer-section .footer-content .footer {
+    width: 40%;
+    justify-content: center;
+    margin: 30px 15px;
+    gap: 20px;
+  }
+
+  .footer-section .footer-content .footer p {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .footer-section .footer-content .footer1 {
+    order: 1;
+  }
+  .footer-section .footer-content .footer2 {
+    order: 3;
+    width: 85%;
+    justify-content: center;
+  }
+
+  .footer-section .footer-content .footer3 {
+    order: 2;
+  }
+
+  .footer-section .footer-content .footer .footer-input form {
+    width: 100%;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .footer-section .footer-content .footer .footer-input form input {
+    width: 60%;
+    justify-content: star;
+  }
+
+  .footer-section .footer-content .footer .footer-input form .footer-btn {
+    width: 30%;
+  }
+
+  .footer-section .footer-content .footer .footer-input form button {
+    width: 100%;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .footer-section .footer-content .footer .footer-links .links {
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 60%;
+  }
+}
